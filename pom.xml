@@ -181,9 +181,9 @@
 	<profiles>
   		<profile>
 			<id>local</id>
-			<activation>
+			<!-- <activation>
 			 	<activeByDefault>true</activeByDefault> 
-			</activation>
+			</activation> -->
 			<properties>
 				<!-- 全局数据库，数据源 -->
 				<db.datasource.address>jdbc:mysql://121.199.181.84:3306/enbrands?zeroDateTimeBehavior=convertToNull&amp;amp;autoReconnect=true&amp;amp;useSSL=true</db.datasource.address>
@@ -194,9 +194,9 @@
 		</profile>
 		<profile>
 			<id>test</id>
-			<!-- <activation>
+			<activation>
 			 	<activeByDefault>true</activeByDefault> 
-			</activation> -->
+			</activation>
 			<properties>
 				<!-- 全局数据库，数据源 -->
 				<db.datasource.address>jdbc:mysql://121.199.181.84:3306/enbrands?zeroDateTimeBehavior=convertToNull&amp;amp;autoReconnect=true&amp;amp;useSSL=true</db.datasource.address>
